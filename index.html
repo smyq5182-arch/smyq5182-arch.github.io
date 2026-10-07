@@ -1,0 +1,3239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Dr. Mahpara Muhammad Yousuf — Business Strategy Analyst, Researcher, Educator and Data Analytics Professional">
+
+<title>Dr. Mahpara Muhammad Yousuf | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* =========================================================
+   WHITE + GOLD LUXURY DESIGN
+========================================================= */
+
+:root {
+    --white: #ffffff;
+    --cream: #faf9f6;
+    --cream2: #f5f2e9;
+
+    --gold: #d4af37;
+    --gold-dark: #a98618;
+    --gold-light: #ead98a;
+
+    --charcoal: #202020;
+    --text: #333333;
+    --muted: #707070;
+
+    --border: rgba(212,175,55,0.35);
+
+    --shadow:
+        0 15px 45px rgba(0,0,0,0.07);
+
+    --shadow-gold:
+        0 15px 45px rgba(212,175,55,0.14);
+
+    --radius: 20px;
+}
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-padding-top: 85px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--white);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: min(1180px, 92%);
+    margin: auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(255,255,255,0.96);
+
+    backdrop-filter: blur(15px);
+
+    border-bottom:
+        1px solid rgba(212,175,55,0.22);
+
+    box-shadow:
+        0 4px 25px rgba(0,0,0,0.035);
+}
+
+.navbar {
+    height: 78px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+
+    color: var(--charcoal);
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--gold-dark);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
+    gap: 24px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--charcoal);
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--gold-dark);
+}
+
+.menu-btn {
+    display: none;
+
+    border: 0;
+    background: transparent;
+
+    color: var(--charcoal);
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 110px;
+    padding-bottom: 70px;
+
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(212,175,55,0.12),
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 5% 80%,
+            rgba(212,175,55,0.07),
+            transparent 25%
+        ),
+
+        var(--white);
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* Decorative gold lines */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    right: -250px;
+    top: 120px;
+
+    border:
+        1px solid rgba(212,175,55,0.25);
+
+    border-radius: 50%;
+}
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    right: -175px;
+    top: 195px;
+
+    border:
+        1px solid rgba(212,175,55,0.15);
+
+    border-radius: 50%;
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns:
+        1.15fr 0.85fr;
+
+    align-items: center;
+
+    gap: 80px;
+}
+
+.eyebrow {
+    color: var(--gold-dark);
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-family: "Playfair Display", serif;
+
+    color: var(--charcoal);
+
+    font-size:
+        clamp(45px, 6vw, 78px);
+
+    line-height: 1.05;
+
+    margin-bottom: 24px;
+}
+
+.hero h1 span {
+    color: var(--gold-dark);
+}
+
+.hero-subtitle {
+    color: var(--charcoal);
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    max-width: 700px;
+
+    margin-bottom: 18px;
+}
+
+.hero-text {
+    color: var(--muted);
+
+    max-width: 680px;
+
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 13px;
+}
+
+.btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 13px 23px;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: var(--gold);
+
+    color: #1b1b1b;
+
+    box-shadow:
+        0 8px 20px rgba(212,175,55,0.22);
+}
+
+.btn-primary:hover {
+    background: var(--gold-dark);
+
+    color: white;
+
+    transform: translateY(-3px);
+}
+
+.btn-outline {
+    border:
+        1px solid var(--gold);
+
+    color: var(--charcoal);
+
+    background: white;
+}
+
+.btn-outline:hover {
+    background: var(--gold);
+
+    color: white;
+
+    transform: translateY(-3px);
+}
+
+.credential-row {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 9px;
+
+    margin-top: 27px;
+}
+
+.credential {
+    padding: 7px 12px;
+
+    border:
+        1px solid rgba(212,175,55,0.35);
+
+    background: #fffdf7;
+
+    color: #555;
+
+    border-radius: 30px;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   PROFILE PHOTO
+========================================================= */
+
+.profile-wrap {
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+}
+
+.profile-ring {
+    width: 370px;
+    height: 370px;
+
+    padding: 9px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold),
+            #fff,
+            var(--gold)
+        );
+
+    box-shadow:
+        0 20px 70px rgba(212,175,55,0.20);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border:
+        7px solid white;
+
+    background: var(--cream);
+}
+
+.profile-fallback {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    border:
+        7px solid white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf0,
+            #ead98a
+        );
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    color: var(--charcoal);
+
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 28px;
+
+    padding: 40px;
+}
+
+
+/* =========================================================
+   GENERAL SECTION
+========================================================= */
+
+section {
+    padding: 100px 0;
+}
+
+.section-heading {
+    margin-bottom: 55px;
+
+    max-width: 760px;
+}
+
+.section-heading.center {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-label {
+    color: var(--gold-dark);
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    margin-bottom: 11px;
+}
+
+.section-heading h2 {
+    font-family:
+        "Playfair Display", serif;
+
+    color: var(--charcoal);
+
+    font-size:
+        clamp(35px, 4vw, 53px);
+
+    line-height: 1.15;
+
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: var(--muted);
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.about {
+    background: var(--cream);
+}
+
+.about-grid {
+    display: grid;
+
+    grid-template-columns:
+        0.75fr 1.25fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.about-card {
+    background: white;
+
+    color: var(--text);
+
+    border:
+        1px solid rgba(212,175,55,0.45);
+
+    border-radius: var(--radius);
+
+    padding: 42px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow-gold);
+}
+
+.about-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--gold),
+            transparent
+        );
+}
+
+.about-card h3 {
+    font-family:
+        "Playfair Display", serif;
+
+    color: var(--gold-dark);
+
+    font-size: 30px;
+
+    margin-bottom: 18px;
+}
+
+.about-card p {
+    color: var(--muted);
+}
+
+.focus-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 10px;
+
+    margin-top: 25px;
+}
+
+.focus {
+    border:
+        1px solid rgba(212,175,55,0.28);
+
+    background: #fffdf8;
+
+    padding: 11px;
+
+    border-radius: 10px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+.about-text p {
+    margin-bottom: 19px;
+}
+
+.highlight {
+    border-left:
+        4px solid var(--gold);
+
+    padding-left: 20px;
+
+    margin-top: 25px;
+
+    color: var(--charcoal);
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   EXPERIENCE
+========================================================= */
+
+.timeline {
+    position: relative;
+
+    max-width: 950px;
+
+    margin: auto;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 20px;
+
+    top: 0;
+    bottom: 0;
+
+    width: 1px;
+
+    background:
+        linear-gradient(
+            var(--gold),
+            rgba(212,175,55,0.1)
+        );
+}
+
+.timeline-item {
+    position: relative;
+
+    padding-left: 65px;
+
+    margin-bottom: 42px;
+}
+
+.timeline-dot {
+    position: absolute;
+
+    left: 10px;
+
+    top: 8px;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border:
+        5px solid var(--gold);
+
+    box-shadow:
+        0 0 0 3px rgba(212,175,55,0.12);
+}
+
+.timeline-card {
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 28px;
+
+    box-shadow:
+        0 8px 28px rgba(0,0,0,0.035);
+
+    transition: 0.3s;
+}
+
+.timeline-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-gold);
+
+    border-color:
+        rgba(212,175,55,0.6);
+}
+
+.timeline-card h3 {
+    color: var(--charcoal);
+
+    font-size: 20px;
+
+    margin-bottom: 4px;
+}
+
+.timeline-company {
+    color: var(--gold-dark);
+
+    font-weight: 700;
+
+    margin-bottom: 4px;
+}
+
+.timeline-date {
+    color: var(--muted);
+
+    font-size: 12px;
+
+    margin-bottom: 15px;
+}
+
+.timeline-card ul {
+    padding-left: 20px;
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   EDUCATION
+========================================================= */
+
+.education {
+    background: var(--cream);
+}
+
+.education-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.edu-card {
+    background: white;
+
+    padding: 32px;
+
+    border-radius: 18px;
+
+    border-top:
+        3px solid var(--gold);
+
+    box-shadow:
+        0 8px 28px rgba(0,0,0,0.04);
+
+    transition: 0.3s;
+}
+
+.edu-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-gold);
+}
+
+.edu-icon {
+    font-size: 31px;
+
+    margin-bottom: 12px;
+}
+
+.edu-card h3 {
+    color: var(--charcoal);
+
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 23px;
+}
+
+.edu-school {
+    color: var(--gold-dark);
+
+    font-weight: 700;
+
+    margin: 7px 0;
+}
+
+.edu-date {
+    color: var(--muted);
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   CERTIFICATIONS
+========================================================= */
+
+.cert-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.cert-card {
+    padding: 30px;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 18px;
+
+    background: white;
+
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-gold);
+
+    border-color: var(--gold);
+}
+
+.cert-card h3 {
+    color: var(--charcoal);
+
+    margin-bottom: 7px;
+}
+
+.cert-provider {
+    color: var(--gold-dark);
+
+    font-weight: 700;
+}
+
+.cert-date {
+    color: var(--muted);
+
+    font-size: 12px;
+}
+
+.cert-more {
+    grid-column: 1 / -1;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffdf7,
+            #f8f2dc
+        );
+
+    border:
+        1px solid var(--border);
+
+    color: var(--charcoal);
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   SKILLS
+========================================================= */
+
+.skills {
+    background: white;
+}
+
+.skill-groups {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+.skill-group {
+    border:
+        1px solid var(--border);
+
+    background:
+        linear-gradient(
+            145deg,
+            white,
+            #fffdf8
+        );
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    transition: 0.3s;
+}
+
+.skill-group:hover {
+    box-shadow: var(--shadow-gold);
+
+    transform: translateY(-4px);
+}
+
+.skill-group h3 {
+    color: var(--gold-dark);
+
+    margin-bottom: 18px;
+
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 23px;
+}
+
+.tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.tag {
+    background: white;
+
+    border:
+        1px solid rgba(212,175,55,0.35);
+
+    color: #555;
+
+    padding: 7px 11px;
+
+    border-radius: 30px;
+
+    font-size: 11px;
+
+    transition: 0.25s;
+}
+
+.tag:hover {
+    background: var(--gold);
+
+    color: white;
+
+    transform: translateY(-2px);
+}
+
+.top-skills {
+    margin-top: 35px;
+
+    padding: 25px;
+
+    border:
+        1px solid rgba(212,175,55,0.45);
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    background: #fffdf7;
+
+    color: #555;
+}
+
+.top-skills strong {
+    color: var(--gold-dark);
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.services {
+    background: var(--cream);
+}
+
+.service-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+.service-card {
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    border:
+        1px solid rgba(212,175,55,0.2);
+
+    transition: 0.35s;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 3px;
+
+    background: var(--gold);
+
+    transform:
+        scaleX(0);
+
+    transform-origin: left;
+
+    transition: 0.35s;
+}
+
+.service-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: var(--shadow-gold);
+
+    border-color:
+        rgba(212,175,55,0.55);
+}
+
+.service-card:hover::before {
+    transform: scaleX(1);
+}
+
+.service-icon {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #fff8df;
+
+    color: var(--gold-dark);
+
+    font-size: 25px;
+
+    margin-bottom: 18px;
+}
+
+.service-card h3 {
+    color: var(--charcoal);
+
+    font-size: 18px;
+
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   PROJECTS
+========================================================= */
+
+.project-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 28px;
+}
+
+.project-card {
+    border:
+        1px solid rgba(212,175,55,0.22);
+
+    border-radius: 20px;
+
+    padding: 32px;
+
+    background: white;
+
+    transition: 0.35s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: var(--shadow-gold);
+
+    border-color: var(--gold);
+}
+
+.project-card.featured {
+    grid-column: 1 / -1;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffdf7,
+            #f8f1d9
+        );
+
+    border:
+        1px solid rgba(212,175,55,0.55);
+}
+
+.project-number {
+    color: var(--gold-dark);
+
+    font-weight: 800;
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+}
+
+.project-card h3 {
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 25px;
+
+    color: var(--charcoal);
+
+    margin: 10px 0;
+}
+
+.project-card.featured h3 {
+    font-size: 34px;
+}
+
+.project-card p {
+    color: var(--muted);
+
+    margin-bottom: 15px;
+
+    font-size: 14px;
+}
+
+.project-tech {
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    border-radius: 20px;
+
+    background: #fff7d9;
+
+    color: var(--gold-dark);
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+.project-features {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 18px;
+}
+
+.feature {
+    padding: 6px 9px;
+
+    border-radius: 20px;
+
+    background: #f7f6f2;
+
+    color: #555;
+
+    font-size: 10px;
+}
+
+.insight {
+    margin-top: 25px;
+
+    padding: 18px;
+
+    border-left:
+        3px solid var(--gold);
+
+    background: rgba(212,175,55,0.08);
+
+    color: #6c5816;
+
+    font-style: italic;
+}
+
+
+/* =========================================================
+   RESEARCH
+========================================================= */
+
+.research {
+    background: var(--cream);
+}
+
+.research-box {
+    background: white;
+
+    color: var(--text);
+
+    border:
+        1px solid rgba(212,175,55,0.45);
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    box-shadow: var(--shadow-gold);
+}
+
+.research-box h3 {
+    font-family:
+        "Playfair Display", serif;
+
+    color: var(--gold-dark);
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+.research-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+.research-list div {
+    padding: 16px;
+
+    border:
+        1px solid rgba(212,175,55,0.25);
+
+    border-radius: 12px;
+
+    background: #fffdf8;
+
+    color: #555;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   HIGHLIGHTS
+========================================================= */
+
+.highlights {
+    background: white;
+}
+
+.stats {
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, 1fr);
+
+    gap: 15px;
+}
+
+.stat {
+    text-align: center;
+
+    padding: 25px 10px;
+
+    border:
+        1px solid rgba(212,175,55,0.25);
+
+    border-radius: 15px;
+
+    background: #fffdf8;
+
+    transition: 0.3s;
+}
+
+.stat:hover {
+    transform: translateY(-4px);
+
+    box-shadow: var(--shadow-gold);
+}
+
+.stat strong {
+    display: block;
+
+    color: var(--gold-dark);
+
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 28px;
+}
+
+.stat span {
+    color: var(--muted);
+
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact {
+    background:
+        linear-gradient(
+            135deg,
+            #fffdf7,
+            #f7f0d9
+        );
+
+    text-align: center;
+}
+
+.contact-card {
+    max-width: 720px;
+
+    margin: auto;
+
+    border:
+        1px solid rgba(212,175,55,0.5);
+
+    border-radius: 22px;
+
+    padding: 50px;
+
+    background: white;
+
+    box-shadow: var(--shadow-gold);
+}
+
+.contact-card h2 {
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: var(--muted);
+
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+}
+
+.linkedin {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 14px 22px;
+
+    background: #0a66c2;
+
+    color: white;
+
+    border-radius: 8px;
+
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.linkedin:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(10,102,194,0.2);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #fff;
+
+    border-top:
+        1px solid rgba(212,175,55,0.2);
+
+    color: #777;
+
+    padding: 32px 0;
+
+    text-align: center;
+
+    font-size: 12px;
+}
+
+footer strong {
+    color: var(--charcoal);
+
+    font-family:
+        "Playfair Display", serif;
+
+    font-size: 19px;
+}
+
+footer strong span {
+    color: var(--gold-dark);
+}
+
+
+/* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+.reveal {
+    opacity: 0;
+
+    transform:
+        translateY(30px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+
+    transform: none;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .stats {
+        grid-template-columns:
+            repeat(3, 1fr);
+    }
+
+    .service-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+
+        top: 78px;
+
+        left: 0;
+
+        width: 100%;
+
+        background: white;
+
+        display: none;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 20px;
+
+        border-top:
+            1px solid rgba(212,175,55,0.2);
+
+        box-shadow:
+            0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+        gap: 45px;
+    }
+
+    .profile-wrap {
+        order: -1;
+    }
+
+    .profile-ring {
+        width: 285px;
+        height: 285px;
+    }
+
+    .hero-buttons,
+    .credential-row {
+        justify-content: center;
+    }
+
+    .about-grid,
+    .education-grid,
+    .cert-grid,
+    .skill-groups,
+    .project-grid,
+    .research-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card.featured {
+        grid-column: auto;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    section {
+        padding: 75px 0;
+    }
+
+    .research-box {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-subtitle {
+        font-size: 17px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .about-card,
+    .contact-card {
+        padding: 28px;
+    }
+
+    .project-card.featured h3 {
+        font-size: 28px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header>
+
+<div class="container navbar">
+
+<a href="#home" class="logo">
+    Dr. Mahpara <span>Yousuf</span>
+</a>
+
+<button class="menu-btn" id="menuBtn">
+    ☰
+</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#research">Research</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+<div class="container hero-content">
+
+
+<div class="hero-copy reveal">
+
+<div class="eyebrow">
+Finance • Analytics • Strategy • Research
+</div>
+
+
+<h1>
+Dr. Mahpara<br>
+<span>Muhammad Yousuf</span>
+</h1>
+
+
+<div class="hero-subtitle">
+Business Strategy Analyst | Researcher | Educator |
+Program Coordinator & Lecturer
+</div>
+
+
+<p class="hero-text">
+I transform complex data into actionable business insights
+through finance, analytics, strategy, research and education.
+</p>
+
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn btn-primary">
+Explore My Work
+</a>
+
+<a href="#contact" class="btn btn-outline">
+Let's Connect
+</a>
+
+</div>
+
+
+<div class="credential-row">
+
+<span class="credential">
+PhD Management Sciences — Finance
+</span>
+
+<span class="credential">
+IBM-Certified Data Scientist
+</span>
+
+<span class="credential">
+Certified Empowerment Coach
+</span>
+
+</div>
+
+</div>
+
+
+<div class="profile-wrap reveal">
+
+<div class="profile-ring">
+
+<img
+id="profileImage"
+class="profile-image"
+src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=QlBPtJMAAAAJ&citpid=7"
+alt="Dr. Mahpara Muhammad Yousuf"
+onerror="showFallback()"
+>
+
+<div
+class="profile-fallback"
+id="profileFallback"
+>
+Dr. Mahpara<br>
+Muhammad Yousuf
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+About Me
+</div>
+
+<h2>
+Bridging Finance, Data & Human Potential
+</h2>
+
+<p>
+A multidisciplinary professional combining academic knowledge,
+business strategy, analytics, research, teaching and coaching.
+</p>
+
+</div>
+
+
+<div class="about-grid">
+
+
+<div class="about-card reveal">
+
+<h3>
+Professional Focus
+</h3>
+
+<p>
+I work at the intersection of data, strategy, finance,
+technology and education, helping people and organizations
+turn information into meaningful decisions.
+</p>
+
+
+<div class="focus-grid">
+
+<div class="focus">Finance</div>
+
+<div class="focus">Business Analytics</div>
+
+<div class="focus">Strategic Planning</div>
+
+<div class="focus">Research</div>
+
+<div class="focus">Education</div>
+
+<div class="focus">Leadership</div>
+
+</div>
+
+</div>
+
+
+<div class="about-text reveal">
+
+<p>
+I am a Business Strategy Analyst & Researcher who turns
+complex data into actionable business insights. I specialize
+in Power BI, Excel, Python and advanced analytics, creating
+dashboards and models that support strategic decisions.
+</p>
+
+<p>
+I also conduct market and competitor research using
+professional platforms such as Refinitiv Eikon and
+S&P Capital IQ.
+</p>
+
+<p>
+Currently, I serve as Program Coordinator & Lecturer at
+Millennium Institute of Technology and Entrepreneurship
+(MiTE), managing transnational UK degree programs.
+</p>
+
+<p>
+Previously, I worked as Business Strategy Analyst at
+Super Enterprise Services and as Senior Sales & Marketing
+Officer at Gadoon Textile Mills.
+</p>
+
+<p>
+Beyond corporate and academic work, I am the Founder of
+Ummah Wellbeing and a Certified Empowerment Life Coach.
+I am passionate about empowering people through data,
+coaching and education.
+</p>
+
+<div class="highlight">
+
+My professional mission is to bridge the gap between
+finance and technology while making data simple,
+useful and actionable.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section id="experience">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Career Journey
+</div>
+
+<h2>
+Professional Experience
+</h2>
+
+<p>
+More than six years of experience across education,
+business strategy, analytics, coaching and B2B sales.
+</p>
+
+</div>
+
+
+<div class="timeline">
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Program Coordinator & Lecturer — Business Management
+</h3>
+
+<div class="timeline-company">
+Millennium Institute of Technology and Entrepreneurship (MiTE)
+</div>
+
+<div class="timeline-date">
+Mar 2026 – Present | Full-time, On-site
+</div>
+
+<ul>
+
+<li>
+Managing transnational degree programs from
+University of Hertfordshire, UK and Pearson HND.
+</li>
+
+<li>
+Ensuring alignment with international academic standards.
+</li>
+
+<li>
+Coordinating faculty assignments, scheduling and
+student progression.
+</li>
+
+<li>
+Teaching Accounting, Finance and Business Studies
+through real-world case studies.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Founder
+</h3>
+
+<div class="timeline-company">
+Ummah Wellbeing
+</div>
+
+<div class="timeline-date">
+Nov 2021 – Present | Hybrid
+</div>
+
+<ul>
+
+<li>
+Empowerment coaching and personal development.
+</li>
+
+<li>
+Leadership and communication development.
+</li>
+
+<li>
+Performance, productivity and well-being.
+</li>
+
+<li>
+Women's empowerment initiatives.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Business Strategy Analyst
+</h3>
+
+<div class="timeline-company">
+Super Enterprise Services (Pvt) Ltd.
+</div>
+
+<div class="timeline-date">
+Nov 2021 – Mar 2026
+</div>
+
+<ul>
+
+<li>
+Business data analysis and performance reporting.
+</li>
+
+<li>
+Market and competitor research using Refinitiv Eikon
+and Capital IQ.
+</li>
+
+<li>
+Power BI dashboards and KPI tracking.
+</li>
+
+<li>
+Budgeting and forecasting models.
+</li>
+
+<li>
+B2B strategy and cross-functional collaboration.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Senior Sales & Marketing Officer
+</h3>
+
+<div class="timeline-company">
+GADOON TEXTILE MILLS LIMITED — YBG
+</div>
+
+<div class="timeline-date">
+Jan 2021 – Oct 2021
+</div>
+
+<ul>
+
+<li>
+B2B sales and strategic marketing.
+</li>
+
+<li>
+Brand communication.
+</li>
+
+<li>
+Textile industry experience.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Sales & Marketing Management Trainee
+</h3>
+
+<div class="timeline-company">
+GADOON TEXTILE MILLS LIMITED
+</div>
+
+<div class="timeline-date">
+Sep 2020 – Jan 2021
+</div>
+
+</div>
+
+</div>
+
+
+<div class="timeline-item reveal">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-card">
+
+<h3>
+Sales & Marketing Intern
+</h3>
+
+<div class="timeline-company">
+GADOON TEXTILE MILLS LIMITED
+</div>
+
+<div class="timeline-date">
+Jul 2020 – Aug 2020
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section class="education" id="education">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Academic Journey
+</div>
+
+<h2>
+Education
+</h2>
+
+</div>
+
+
+<div class="education-grid">
+
+
+<div class="edu-card reveal">
+
+<div class="edu-icon">
+🎓
+</div>
+
+<h3>
+Doctor of Philosophy (PhD)
+in Management Sciences
+</h3>
+
+<div class="edu-school">
+SZABIST, Karachi
+</div>
+
+<div class="edu-date">
+Sep 2022 – Jul 2026
+</div>
+
+<p>
+Specialization: Finance / Business Analytics &
+Quantitative Research.
+</p>
+
+</div>
+
+
+<div class="edu-card reveal">
+
+<div class="edu-icon">
+🎓
+</div>
+
+<h3>
+Master of Business Administration (MBA)
+</h3>
+
+<div class="edu-school">
+SZABIST, Karachi
+</div>
+
+<div class="edu-date">
+Sep 2016 – Dec 2019
+</div>
+
+<p>
+Specialization: Marketing & Finance.
+Additional focus on Exploratory Data Analysis,
+Big Data Analytics and Financial Modeling.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     CERTIFICATIONS
+===================================================== -->
+
+<section id="certifications">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Professional Development
+</div>
+
+<h2>
+Certifications
+</h2>
+
+</div>
+
+
+<div class="cert-grid">
+
+
+<div class="cert-card reveal">
+
+<h3>
+Associate Certified Empowerment Life Coach
+</h3>
+
+<div class="cert-provider">
+Empowerment Coach Academy — UK
+</div>
+
+<div class="cert-date">
+Issued: Dec 2024
+</div>
+
+<p>
+Global Practicum Based Life Coach Training.
+</p>
+
+</div>
+
+
+<div class="cert-card reveal">
+
+<h3>
+Python Project for Data Science
+</h3>
+
+<div class="cert-provider">
+IBM
+</div>
+
+<div class="cert-date">
+Issued: Jul 2023
+</div>
+
+<p>
+Credential ID: W9F4X69WLCQQ
+</p>
+
+</div>
+
+
+<div class="cert-more reveal">
+
+<strong>
+13+ Additional Certifications
+</strong>
+
+<br>
+
+Business Intelligence • Brand Management •
+Credit Risk Management • Financial Modeling •
+Data Analytics • Business Strategy
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section class="skills" id="skills">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Expertise
+</div>
+
+<h2>
+Skills & Areas of Expertise
+</h2>
+
+<p>
+A multidisciplinary skill set spanning data, finance,
+business strategy, research, teaching and leadership.
+</p>
+
+</div>
+
+
+<div class="skill-groups">
+
+
+<div class="skill-group reveal">
+
+<h3>
+Data & Analytics
+</h3>
+
+<div class="tags">
+
+<span class="tag">Power BI</span>
+<span class="tag">Advanced Excel</span>
+<span class="tag">Python</span>
+<span class="tag">Financial Modeling</span>
+<span class="tag">Business Analytics</span>
+<span class="tag">Data Visualization</span>
+<span class="tag">Dashboard Development</span>
+<span class="tag">EDA</span>
+<span class="tag">Big Data Analytics</span>
+<span class="tag">KPI Tracking</span>
+
+</div>
+
+</div>
+
+
+<div class="skill-group reveal">
+
+<h3>
+Business Strategy & Finance
+</h3>
+
+<div class="tags">
+
+<span class="tag">Business Strategy</span>
+<span class="tag">Strategic Planning</span>
+<span class="tag">B2B Market Strategy</span>
+<span class="tag">Market Research</span>
+<span class="tag">Budgeting</span>
+<span class="tag">Forecasting</span>
+<span class="tag">Financial Analysis</span>
+<span class="tag">Credit Risk Management</span>
+<span class="tag">Process Optimization</span>
+
+</div>
+
+</div>
+
+
+<div class="skill-group reveal">
+
+<h3>
+Research & Market Intelligence
+</h3>
+
+<div class="tags">
+
+<span class="tag">Quantitative Research</span>
+<span class="tag">Market Intelligence</span>
+<span class="tag">Refinitiv Eikon</span>
+<span class="tag">S&P Capital IQ</span>
+<span class="tag">Sovereign Risk</span>
+<span class="tag">CDS Analysis</span>
+<span class="tag">BRIC Research</span>
+<span class="tag">Academic Publications</span>
+
+</div>
+
+</div>
+
+
+<div class="skill-group reveal">
+
+<h3>
+Teaching & Leadership
+</h3>
+
+<div class="tags">
+
+<span class="tag">Program Coordination</span>
+<span class="tag">Accounting</span>
+<span class="tag">Finance</span>
+<span class="tag">Business Studies</span>
+<span class="tag">Team Coordination</span>
+<span class="tag">Public Speaking</span>
+<span class="tag">Workshops</span>
+<span class="tag">Student Mentorship</span>
+
+</div>
+
+</div>
+
+
+<div class="skill-group reveal">
+
+<h3>
+Coaching & Empowerment
+</h3>
+
+<div class="tags">
+
+<span class="tag">Life Coaching</span>
+<span class="tag">Leadership Development</span>
+<span class="tag">Communication</span>
+<span class="tag">Women's Empowerment</span>
+<span class="tag">Performance Coaching</span>
+<span class="tag">Productivity</span>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<div class="top-skills reveal">
+
+<strong>
+Key Skills:
+</strong>
+
+Business Analytics • Power BI • Strategic Planning •
+Market Research • Financial Modeling • Python •
+Data-Driven Decision Making • B2B Strategy
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="services" id="services">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+What I Offer
+</div>
+
+<h2>
+Professional Services
+</h2>
+
+<p>
+Practical solutions combining analytical thinking,
+business knowledge and human development.
+</p>
+
+</div>
+
+
+<div class="service-grid">
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+📊
+</div>
+
+<h3>
+Business Analytics & Power BI Solutions
+</h3>
+
+<p>
+Transform complex data into interactive dashboards
+and actionable reports using Power BI, Excel and Python,
+including forecasting and KPI tracking.
+</p>
+
+</div>
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+🔎
+</div>
+
+<h3>
+Market Research & Competitive Intelligence
+</h3>
+
+<p>
+Market and competitor analysis using professional
+platforms such as Refinitiv Eikon and S&P Capital IQ.
+</p>
+
+</div>
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+📈
+</div>
+
+<h3>
+Strategic Planning & Financial Modelling
+</h3>
+
+<p>
+Support with budgeting, forecasting, financial analysis,
+process optimization and business growth strategy.
+</p>
+
+</div>
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+🌱
+</div>
+
+<h3>
+Empowerment & Leadership Coaching
+</h3>
+
+<p>
+Coaching focused on performance, productivity, mindset,
+leadership, communication and well-being.
+</p>
+
+</div>
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+🎓
+</div>
+
+<h3>
+Academic Training & Corporate Workshops
+</h3>
+
+<p>
+Training in Accounting, Finance, Business Studies,
+Business Intelligence, Brand Management and related
+professional subjects.
+</p>
+
+</div>
+
+
+<div class="service-card reveal">
+
+<div class="service-icon">
+🎤
+</div>
+
+<h3>
+Public Speaking & Seminars
+</h3>
+
+<p>
+Workshops and seminars on data-driven strategy,
+sustainability, digital transformation and
+personal development.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Selected Work
+</div>
+
+<h2>
+Projects & Achievements
+</h2>
+
+<p>
+Selected examples of analytics, research, strategy,
+education and professional leadership.
+</p>
+
+</div>
+
+
+<div class="project-grid">
+
+
+<div class="project-card featured reveal">
+
+<div class="project-number">
+FEATURED CASE STUDY — 01
+</div>
+
+<h3>
+Telecommunication Sales Growth Dashboard
+</h3>
+
+<span class="project-tech">
+POWER BI
+</span>
+
+<p>
+An executive-level interactive business intelligence
+dashboard designed to track sales performance,
+customer growth, ARPU, regional performance,
+product contribution, sales funnel progression
+and forecasting.
+</p>
+
+<div class="project-features">
+
+<span class="feature">MoM Analysis</span>
+<span class="feature">YoY Analysis</span>
+<span class="feature">ARPU</span>
+<span class="feature">New Customers</span>
+<span class="feature">Regional Analysis</span>
+<span class="feature">Product Contribution</span>
+<span class="feature">Sales Funnel</span>
+<span class="feature">Forecasting</span>
+<span class="feature">Slicers</span>
+<span class="feature">Drill-through</span>
+<span class="feature">KPI Tracking</span>
+
+</div>
+
+<div class="insight">
+
+"Top 3 regions contributed over 20% sales growth,
+driven mainly by data services."
+
+</div>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+02
+</div>
+
+<h3>
+Tail Dependencies in Sovereign Risk
+</h3>
+
+<p>
+<strong>
+Published in China Finance Review International, 2026.
+</strong>
+</p>
+
+<p>
+Quantitative research exploring tail dependencies
+in sovereign risk using quantile approaches
+in BRIC economies.
+</p>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+03
+</div>
+
+<h3>
+Sovereign Credit Default Swaps in Emerging Markets
+</h3>
+
+<p>
+<strong>
+Published in Journal of Business and Management Research, 2025.
+</strong>
+</p>
+
+<p>
+Research examining the dynamic interplay of local
+shocks and global forces affecting sovereign CDS
+in emerging markets.
+</p>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+04
+</div>
+
+<h3>
+Business Strategy & Performance Optimization
+</h3>
+
+<p>
+<strong>
+Super Enterprise Services | 2021–2026
+</strong>
+</p>
+
+<p>
+Data-driven strategic initiatives involving market
+research, budgeting, forecasting, KPI tracking,
+B2B strategy and operational efficiency.
+</p>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+05
+</div>
+
+<h3>
+International Conference Presentation
+</h3>
+
+<p>
+<strong>
+ARICMMT 2023 — University of Oxford, UK
+</strong>
+</p>
+
+<p>
+Presented research at the Applied Research International
+Conference on Management, Marketing & Technology at
+St. Hilda's College, University of Oxford.
+</p>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+06
+</div>
+
+<h3>
+Ummah Wellbeing
+</h3>
+
+<p>
+<strong>
+Founder | Nov 2021 – Present
+</strong>
+</p>
+
+<p>
+An empowerment and coaching platform focused on leadership,
+personal development, performance, productivity, mindset
+and well-being.
+</p>
+
+</div>
+
+
+<div class="project-card reveal">
+
+<div class="project-number">
+07
+</div>
+
+<h3>
+Transnational Academic Program Management
+</h3>
+
+<p>
+<strong>
+MiTE | 2026–Present
+</strong>
+</p>
+
+<p>
+Managing and coordinating UK degree programs through
+University of Hertfordshire and Pearson HND, including
+academic coordination and student engagement.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     RESEARCH
+===================================================== -->
+
+<section class="research" id="research">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Academic Work
+</div>
+
+<h2>
+Research & Publications
+</h2>
+
+<p>
+Research interests focused on finance, sovereign risk,
+quantitative methods and emerging markets.
+</p>
+
+</div>
+
+
+<div class="research-box reveal">
+
+<h3>
+Research Interests
+</h3>
+
+<p>
+My academic research combines quantitative finance,
+sovereign risk analysis, emerging markets and
+data-driven approaches to understanding financial
+risk under changing market conditions.
+</p>
+
+
+<div class="research-list">
+
+<div>
+📚 Quantitative Finance
+</div>
+
+<div>
+📊 Sovereign Risk
+</div>
+
+<div>
+🌍 Emerging Markets
+</div>
+
+<div>
+📈 Sovereign CDS
+</div>
+
+<div>
+🔬 BRIC Economies
+</div>
+
+<div>
+💹 Financial Risk Management
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     PROFESSIONAL HIGHLIGHTS
+===================================================== -->
+
+<section class="highlights">
+
+<div class="container">
+
+
+<div class="section-heading center reveal">
+
+<div class="section-label">
+Professional Highlights
+</div>
+
+<h2>
+At a Glance
+</h2>
+
+</div>
+
+
+<div class="stats">
+
+
+<div class="stat reveal">
+
+<strong>
+PhD
+</strong>
+
+<span>
+Management Sciences — Finance
+</span>
+
+</div>
+
+
+<div class="stat reveal">
+
+<strong>
+6+
+</strong>
+
+<span>
+Years Experience
+</span>
+
+</div>
+
+
+<div class="stat reveal">
+
+<strong>
+7+
+</strong>
+
+<span>
+Featured Projects
+</span>
+
+</div>
+
+
+<div class="stat reveal">
+
+<strong>
+13+
+</strong>
+
+<span>
+Additional Certifications
+</span>
+
+</div>
+
+
+<div class="stat reveal">
+
+<strong>
+UK
+</strong>
+
+<span>
+Transnational Programs
+</span>
+
+</div>
+
+
+<div class="stat reveal">
+
+<strong>
+Oxford
+</strong>
+
+<span>
+International Presentation
+</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+
+<div class="contact-card reveal">
+
+
+<div class="section-label">
+Get In Touch
+</div>
+
+
+<h2 class="section-heading"
+style="margin:10px auto 15px;">
+
+Let's Connect
+
+</h2>
+
+
+<p>
+Interested in data-driven strategy, finance, research,
+analytics, academic collaboration, training or
+professional development? Let's connect.
+</p>
+
+
+<a
+class="linkedin"
+href="https://pk.linkedin.com/in/dr-mahpara-yousuf-723867134"
+target="_blank"
+rel="noopener noreferrer"
+>
+
+<span>
+in
+</span>
+
+Connect on LinkedIn
+
+</a>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+<div class="container">
+
+<strong>
+Dr. Mahpara <span>Muhammad Yousuf</span>
+</strong>
+
+<p>
+Business Strategy Analyst | Researcher | Educator
+</p>
+
+<p>
+© <span id="year"></span>
+Dr. Mahpara Muhammad Yousuf.
+All Rights Reserved.
+</p>
+
+</div>
+
+</footer>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+/* MOBILE MENU */
+
+const menuBtn =
+document.getElementById("menuBtn");
+
+const navLinks =
+document.getElementById("navLinks");
+
+
+menuBtn.addEventListener(
+"click",
+function() {
+
+navLinks.classList.toggle("open");
+
+});
+
+
+document
+.querySelectorAll(".nav-links a")
+.forEach(function(link) {
+
+link.addEventListener(
+"click",
+function() {
+
+navLinks.classList.remove("open");
+
+});
+
+});
+
+
+/* PROFILE IMAGE FALLBACK */
+
+function showFallback() {
+
+const image =
+document.getElementById("profileImage");
+
+const fallback =
+document.getElementById("profileFallback");
+
+image.style.display = "none";
+
+fallback.style.display = "flex";
+
+}
+
+
+/* SCROLL REVEAL */
+
+const observer =
+new IntersectionObserver(
+function(entries) {
+
+entries.forEach(
+function(entry) {
+
+if (entry.isIntersecting) {
+
+entry.target.classList.add("active");
+
+}
+
+});
+
+},
+{
+threshold: 0.12
+}
+);
+
+
+document
+.querySelectorAll(".reveal")
+.forEach(function(element) {
+
+observer.observe(element);
+
+});
+
+
+/* CURRENT YEAR */
+
+document.getElementById("year")
+.textContent =
+new Date().getFullYear();
+
+</script>
+
+
+</body>
+</html>
+```
